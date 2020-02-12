@@ -1,4 +1,5 @@
 window.onload = hello
+console.log("hello")
 
 function hello(){
 
@@ -63,7 +64,6 @@ function hello(){
       var li1 = document.createElement("li");
 
       var text1 = document.createTextNode(inputValue[0].value);
-      
       
       li1.appendChild(text1);
       li1.onclick = function() {
